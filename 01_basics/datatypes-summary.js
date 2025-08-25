@@ -32,6 +32,35 @@ const myfunction = function(){
     
 }
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack (primitive) , Heap(Non-primitive)
+
+
+let git_username = "bishwarup7"
+
+let anothername = git_username
+
+anothername = " dipto9"
+
+console.log(anothername);
+
+console.log(git_username);
+
+let userone = {
+    email: "user@jik.com",
+    upi: "user@lp"
+}
+let usertwo = userone
+
+usertwo.email ="diptob@gmail.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
+
+
+
 
 
 
